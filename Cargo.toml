@@ -1,0 +1,17 @@
+[package]
+name = "pc-beeper"
+version = "0.1.0"
+authors = ["DEADBLACKCLOVER <deadblackclover@protonmail.com>"]
+description = "The most primitive audio device available on PC-compatible systems with characteristic 'beeps' and 'squeaks'"
+edition = "2018"
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/deadblackclover/pc-beeper"
+repository = "https://github.com/deadblackclover/pc-beeper"
+keywords = ["pc beeper", "pc speaker", "no_std"]
+categories = ["no-std"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+x86_64 = "0.11.0"
