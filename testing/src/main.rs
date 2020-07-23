@@ -39,5 +39,5 @@ fn trivial_assertion() {
 #[test_case]
 fn test_speaker() {
     let mut speaker = Speaker::new();
-    speaker.beep();
+    speaker.beep(1000, 10);
 }

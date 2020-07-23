@@ -10,5 +10,5 @@ The most primitive audio device available on PC-compatible systems with characte
 use pc_beeper::Speaker;
 
 let mut speaker = Speaker::new();
-speaker.beep();
+speaker.beep(1000, 10);
 ```
