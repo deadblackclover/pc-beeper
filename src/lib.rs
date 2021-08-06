@@ -8,7 +8,6 @@
 //! speaker.beep(1000, 10);
 //! ```
 #![no_std]
-#![feature(const_fn)]
 
 use x86_64::instructions::port::Port;
 

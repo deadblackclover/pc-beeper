@@ -1,3 +1,6 @@
-/target
-/testing/target
+.idea/
+target
+testing/target
+
 Cargo.lock
+/pc-beeper.iml
