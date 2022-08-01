@@ -11,9 +11,9 @@ harness = false
 [dependencies]
 bootloader = "0.9.18"
 pc-beeper = { path = "../" }
-spin = "0.5.2"
-uart_16550 = "0.2.0"
-x86_64 = "0.13.6"
+spin = "0.9.4"
+uart_16550 = "0.2.18"
+x86_64 = "0.14.10"
 
 [dependencies.lazy_static]
 version = "1.0"

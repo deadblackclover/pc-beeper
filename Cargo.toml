@@ -1,6 +1,6 @@
 [package]
 name = "pc-beeper"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["DEADBLACKCLOVER <deadblackclover@protonmail.com>"]
 description = "The most primitive audio device available on PC-compatible systems with characteristic 'beeps' and 'squeaks'"
 edition = "2018"
@@ -13,4 +13,4 @@ categories = ["no-std", "os"]
 
 
 [dependencies]
-x86_64 = "0.14.4"
+x86_64 = "0.14.10"
